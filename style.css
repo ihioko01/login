@@ -1,0 +1,84 @@
+
+    * {
+        box-sizing: border-box;
+        margin:0;
+        padding: 0;
+      }
+  
+      body {
+        font-family: 'Raleway', sans-serif;
+        background-image: url(showcase.jpg);
+        color: white;
+        line-height: 1.8;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+  
+      a {
+        text-decoration: none;
+      }
+  
+      #container {
+        margin: 2rem auto;
+        max-width: 400px;
+        padding: 20px;
+      }
+  
+      .form-wrap {
+        background: rgb(31, 166, 45);
+        padding: 15px 25px;
+        color: #fff;
+        border-radius: 6px;
+      }
+  
+      .form-wrap h1,
+      .form-wrap p {
+        text-align: left;
+      }
+  
+      .form-wrap .form-group {
+        margin-top: 15px;
+      }
+  
+      .form-wrap .form-group label {
+        display: block;
+        color: #fff;
+      }
+  
+      .form-wrap .form-group input {
+        width: 100%;
+        padding: 10px;
+        border: #ddd 1px solid;
+        border-radius: 5px;
+      }
+  
+      .form-wrap button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        background: black;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+  
+      .form-wrap button:hover {
+        background: #63ae25;
+      }
+  
+      /* .form-wrap .bottom-text {
+        font-size: 13px;
+        margin-top: 20px;
+      } */
+  
+  /*     footer {
+        text-align: center;
+        margin-top: 10px;
+      }
+  
+      footer a {
+        color:#49c1a2
+      } */
